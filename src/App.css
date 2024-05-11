@@ -1,0 +1,43 @@
+/* src/App.css */
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://source.unsplash.com/1600x900/?sky');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
